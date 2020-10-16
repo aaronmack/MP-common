@@ -30,6 +30,9 @@ pip install mp-common-pkg
 import common_pkg.common as cpc
 file_path = r""
 cpc.compute_md5(file_path)
+
+# upgrade 
+pip install mp-common-pkg --upgrade
 ```
 
 ## Problems
