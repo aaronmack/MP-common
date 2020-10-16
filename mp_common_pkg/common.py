@@ -6,6 +6,7 @@ import hashlib
 from traceback import format_exc
 from inspect import getframeinfo, stack
 
+
 def compute_md5(filename, chunk_4k=False):
     """
     Python function to find MD5 hash value of a file
