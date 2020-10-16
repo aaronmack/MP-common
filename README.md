@@ -2,6 +2,8 @@
 
 * This is a common repository, for MP
 
+![Upload Python Package mp-common-pkg](https://github.com/aaronmack/MP-common/workflows/Upload%20Python%20Package%20mp-common-pkg/badge.svg?branch=master)
+
 ## Construction
 
 ```bash
