@@ -13,6 +13,11 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/aaronmack/MP-common",
     packages=["common_pkg"],
+    keywords = ['COMMON', 'FUNCTIONS', ],
+    install_requires=[            # I get to this in a second
+          'crypto',
+      ],
+    license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
