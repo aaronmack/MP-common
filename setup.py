@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mp-common-pkg", # Replace with your own username
-    version="0.0.4",
+    version="0.0.5",
     author="Aaron Li",
     author_email="lilong999000@gmail.com",
     description="A common repository, for MP System",
@@ -16,6 +16,7 @@ setuptools.setup(
     keywords = ['COMMON', 'FUNCTIONS', ],
     install_requires=[            # I get to this in a second
           'crypto',
+          'colorama'
       ],
     license="MIT",
     classifiers=[

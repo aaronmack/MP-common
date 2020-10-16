@@ -6,6 +6,13 @@ import hashlib
 from traceback import format_exc
 from inspect import getframeinfo, stack
 
+from mp_common_pkg import global_const
+
+
+if global_const.WIN_PLATFORM:
+    import colorama
+    colorama.init()
+
 
 def compute_md5(filename, chunk_4k=False):
     """
